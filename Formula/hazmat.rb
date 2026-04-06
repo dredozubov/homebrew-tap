@@ -15,10 +15,10 @@ class Hazmat < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/dredozubov/hazmat/releases/download/v#{version}/hazmat-v#{version}-darwin-arm64.tar.gz"
-      sha256 "ac42078b471fdef9dcc03d571df0aa7ff5e2accf1c4340b918d575de522a0beb" # updated by release workflow
+      sha256 "4b2b4e811b5b3c39e2eb456ee4d445c65e8e613b1a7dd392a3befea86b3df0c2" # updated by release workflow
     else
       url "https://github.com/dredozubov/hazmat/releases/download/v#{version}/hazmat-v#{version}-darwin-amd64.tar.gz"
-      sha256 "f8ee93e0d1a9a21d47805ca425a3ca8db67d198d0cdf8fbfe1da7889f7ac397e" # updated by release workflow
+      sha256 "bd7f99a15956997ba86db09cb76e8ebc538372f8091f4dbb20f9c6d08948645f" # updated by release workflow
     end
   end
 
