@@ -10,15 +10,15 @@ class Hazmat < Formula
   desc "AI agent containment for macOS — sandbox, firewall, and credential isolation"
   homepage "https://github.com/dredozubov/hazmat"
   license "MIT"
-  version "0.5.0" # updated by release workflow
+  version "0.6.0" # updated by release workflow
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/dredozubov/hazmat/releases/download/v#{version}/hazmat-v#{version}-darwin-arm64.tar.gz"
-      sha256 "61d852b8ca9d9c69d9e9e8c2ab57acbbda9d513a010ad617d290fcf55a9330e7" # updated by release workflow
+      sha256 "cdc143758aa514a976a4571d921c90cace6844249f669e25aa87c2881a3253ee" # updated by release workflow
     else
       url "https://github.com/dredozubov/hazmat/releases/download/v#{version}/hazmat-v#{version}-darwin-amd64.tar.gz"
-      sha256 "63ae08ba921d3b2ce1d2a806e55f9e1bd5f2dcda7693b259df64c84211e6d433" # updated by release workflow
+      sha256 "b4f909423a715b86b2bfcc540aa47db0d1bf532d0cad1320efb6b1c26608b67b" # updated by release workflow
     end
   end
 
