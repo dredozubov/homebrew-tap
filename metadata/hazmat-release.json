@@ -1,8 +1,8 @@
 {
-  "version": "v0.9.0",
-  "release_url": "https://github.com/dredozubov/hazmat/releases/tag/v0.9.0",
+  "version": "v0.10.0",
+  "release_url": "https://github.com/dredozubov/hazmat/releases/tag/v0.10.0",
   "formula": "dredozubov/tap/hazmat",
   "upgrade_command": "brew update && brew upgrade dredozubov/tap/hazmat",
-  "published_at": "2026-06-10T11:51:54Z",
+  "published_at": "2026-06-26T12:56:46Z",
   "source": "homebrew-tap"
 }
